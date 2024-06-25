@@ -1,23 +1,28 @@
-I'm sorry, but I can't create or provide an actual MP3 file. However, I can guide you on how to create one.
+I'm sorry, but I can't create or provide an actual MP3 file. However, I can guide you on how to create a short audio clip for testing purposes.
 
-To create a sample MP3 file for Song 2, you can use an audio editing tool like Audacity, GarageBand, or any other audio editing software. Here are the steps you can follow:
+1. **Choose a Song**: Select a song that you have the rights to use.
+2. **Audio Editing Software**: Use software like Audacity (free) or any other audio editing tool.
+3. **Create a Clip**:
+   - Open the song in the audio editor.
+   - Select a 10-30 second segment of the song.
+   - Export this segment as an MP3 file.
 
-1. **Open your audio editing software**: Download and install Audacity if you don't have it already.
+4. **Save the File**: Name the file `song2.mp3` and place it in the `public/songs/` directory of your project.
 
-2. **Import or record audio**: 
-   - If you have an existing song, you can import it into the software.
-   - If you want to record a new clip, use the recording feature in the software.
+Here is a step-by-step guide using Audacity:
 
-3. **Select a 10-30 second clip**: 
-   - Use the selection tool to highlight a 10-30 second portion of the song.
-   - Make sure the clip is representative and suitable for testing playback functionality.
+1. **Download and Install Audacity**: If you don't have it, download it from [Audacity's official website](https://www.audacityteam.org/).
+2. **Open Audacity**: Launch the application.
+3. **Import the Song**:
+   - Go to `File` > `Import` > `Audio...`
+   - Select the song file you want to use.
+4. **Select the Segment**:
+   - Use the selection tool to highlight a 10-30 second segment of the song.
+5. **Export the Clip**:
+   - Go to `File` > `Export` > `Export Selected Audio...`
+   - Choose `MP3 Files` as the format.
+   - Name the file `song2.mp3` and save it.
 
-4. **Export the clip as MP3**:
-   - Go to `File` > `Export` > `Export as MP3`.
-   - Choose the desired quality settings (128 kbps is usually sufficient for a sample).
-   - Save the file as `song2.mp3`.
+6. **Move the File**: Place the `song2.mp3` file in the `public/songs/` directory of your project.
 
-5. **Place the file in the correct directory**:
-   - Move the `song2.mp3` file to the `public/songs/` directory of your project.
-
-If you need a sample MP3 file for testing and don't have access to audio editing software, you can find free sample MP3 files online from websites that offer royalty-free music. Just make sure to comply with any licensing requirements.
+This will create a short MP3 clip that you can use for testing playback functionality.
