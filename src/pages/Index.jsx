@@ -1,12 +1,21 @@
-import { Container, VStack, Text, Heading, Box, Image, Button } from "@chakra-ui/react";
+import { Container, VStack, Text, Heading, Box, Image, Button, Input, FormControl, FormLabel } from "@chakra-ui/react";
 import { FaPlay, FaPause, FaForward, FaBackward } from "react-icons/fa";
 import { useState } from "react";
 
 const Index = () => {
   const [isPlaying, setIsPlaying] = useState(false);
+  const [playlists, setPlaylists] = useState([]);
+  const [newPlaylistName, setNewPlaylistName] = useState('');
 
   const handlePlayPause = () => {
     setIsPlaying(!isPlaying);
+  };
+
+  const handleCreatePlaylist = () => {
+    if (newPlaylistName.trim()) {
+      setPlaylists([...playlists, newPlaylistName]);
+      setNewPlaylistName('');
+    }
   };
 
   return (
@@ -23,6 +32,24 @@ const Index = () => {
             {isPlaying ? "Pause" : "Play"}
           </Button>
           <Button leftIcon={<FaForward />} colorScheme="teal" variant="outline">Next</Button>
+        </VStack>
+        <VStack spacing={4} mt={8} width="100%">
+          <FormControl id="new-playlist">
+            <FormLabel>New Playlist</FormLabel>
+            <Input 
+              value={newPlaylistName} 
+              onChange={(e) => setNewPlaylistName(e.target.value)} 
+              placeholder="Enter playlist name" 
+            />
+            <Button mt={2} colorScheme="teal" onClick={handleCreatePlaylist}>Create Playlist</Button>
+          </FormControl>
+          <VStack spacing={2} width="100%">
+            {playlists.map((playlist, index) => (
+              <Box key={index} p={4} borderWidth="1px" borderRadius="md" width="100%">
+                {playlist}
+              </Box>
+            ))}
+          </VStack>
         </VStack>
       </VStack>
     </Container>
