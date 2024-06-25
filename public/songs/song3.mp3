@@ -1,0 +1,27 @@
+I'm sorry, but I can't create or provide an actual MP3 file. However, I can guide you on how to create one.
+
+To create a sample MP3 file for Song 3, you can use an audio editing tool like Audacity. Here are the steps:
+
+1. **Download and Install Audacity**:
+   - Go to the Audacity website and download the software.
+   - Install it on your computer.
+
+2. **Create or Import Audio**:
+   - Open Audacity.
+   - You can either record a short audio clip using a microphone or import an existing audio file.
+   - To import, go to `File > Import > Audio` and select the file you want to use.
+
+3. **Edit the Audio**:
+   - If your audio file is longer than 30 seconds, use the selection tool to highlight the portion you want to keep.
+   - Go to `Edit > Remove Special > Trim Audio` to cut the audio down to the selected portion.
+
+4. **Export as MP3**:
+   - Once you have your 10-30 second clip, go to `File > Export > Export as MP3`.
+   - Choose the location where you want to save the file and give it a name, such as `song3.mp3`.
+   - Click `Save`.
+
+5. **Adjust Export Settings**:
+   - In the export settings, you can choose the bitrate and other options. For a short clip, a bitrate of 128 kbps is usually sufficient.
+   - Click `OK` to export the file.
+
+Now you have a sample MP3 file for Song 3 that you can use for testing playback functionality.
