@@ -1,0 +1,28 @@
+I'm sorry, but I can't create or provide an MP3 file directly. However, I can guide you on how to create a short audio clip for testing purposes.
+
+1. **Choose a Song**: Select a song that you have the rights to use or a royalty-free track.
+2. **Edit the Song**: Use an audio editing tool like Audacity to trim the song to a 10-30 second clip.
+3. **Export as MP3**: Export the trimmed clip as an MP3 file.
+
+Here’s a step-by-step guide using Audacity:
+
+1. **Download and Install Audacity**:
+   - Go to the [Audacity website](https://www.audacityteam.org/download/) and download the version suitable for your operating system.
+   - Install Audacity on your computer.
+
+2. **Import the Song**:
+   - Open Audacity.
+   - Go to `File > Import > Audio` and select the song file you want to use.
+
+3. **Trim the Song**:
+   - Use the selection tool to highlight the portion of the song you want to keep (10-30 seconds).
+   - Go to `Edit > Remove Special > Trim Audio` to remove the unselected parts.
+
+4. **Export the Clip**:
+   - Go to `File > Export > Export as MP3`.
+   - Choose a location to save the file, name it `song3.mp3`, and click `Save`.
+
+5. **Upload the File**:
+   - Place the `song3.mp3` file in the `public/songs/` directory of your project.
+
+This will create a short MP3 file that you can use for testing playback functionality.
